@@ -1,0 +1,15 @@
+applications:
+- path: .
+  memory: 1024M
+  instances: 1
+  domain: mybluemix.net
+  name: BIS-Projekt-SentiApp
+  host: BIS-Projekt-SentiApp
+  disk_quota: 1024M
+  services:
+  - BIS-Projekt-Twitter
+  - BIS-Projekt-Spark
+  - BIS-Projekt-NLC
+  - availability-monitoring-auto
+  - BIS-Pojekt-DashDB
+  - Apache Spark-test
